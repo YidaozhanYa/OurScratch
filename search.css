@@ -6,20 +6,60 @@
             width: 30%;            
             margin: 2px auto;
             display: flex;
-            /*border: 1px solid red;*/
+
         }
+        .sinput{
+	font-family: "Microsoft YaHei UI";
+	flex: 4;
+	font-style: normal;
+	height: 30px;
+	outline: none;
+	border: 3px solid #4588E6;
+	box-sizing: border-box;
+	padding-left: 10px;	
+	color: white;
+	background-color: #4588E1;
+}
+        .sbutton{
+	font-family: "Microsoft YaHei UI";
+	flex: 1;
+	height: 50px;
+	background-color: #4D97FF;
+	color: white;
+	border: 3px solid #4588E6;
+	outline: none;
+	box-sizing: border-box;
+	vertical-align: middle;
+}        
         .search input{
-        	font-family: "Microsoft YaHei UI";
+	font-family: "Microsoft YaHei UI";
+	flex: 4;
+	font-style: normal;
+	height: 30px;
+	outline: none;
+	border: 3px solid #4588E6;
+	box-sizing: border-box;
+	padding-left: 10px;	
+	color: black;
+
+}
+
+        .search button input{
+            font-style: normal;
+        }
+        .search button:hover{
+            font-size: 16px;
+        }
+                .search input{
             float: left;//左浮动
             flex: 4;
             height: 30px;
             outline: none;
             border: 1px solid #4D97FF;
-            box-sizing: border-box;//盒子模型，怪异IE盒子模型，width=content+border*2+padding*2
-            padding-left: 10px;
+            box-sizing: border-box;
+                        padding-left: 10px;
         }
         .search button{
-        	font-family: "Microsoft YaHei UI";
             float: right;
             flex: 1;
             height: 30px;
@@ -28,9 +68,42 @@
             border-style: none;
             outline: none;
         }
-        .search button i{
-            font-style: normal;
-        }
-        .search button:hover{
-            font-size: 16px;
-        }
+        
+.NavigationSearch {
+	background-color: #4D97FF;
+	font-family: "Microsoft YaHei UI";
+	color: #000000;
+	font-style: normal;
+	background-repeat: repeat;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 54px;
+	font-weight: normal;
+	text-decoration: none;
+}
+.NavigationSearchButton {
+	background-color: #68A8FF;
+	font-family: "Microsoft YaHei UI";
+	color: #ffffff;
+	font-style: normal;
+	background-repeat: repeat;
+	text-align: center;
+	font-weight: normal;
+	text-decoration: none;
+}
+.Navigation {
+  position: sticky;
+	background-color: #4D97FF;
+	font-family: "Microsoft YaHei UI";
+	color: #FFFFFF;
+	font-style: normal;
+	border-bottom-style: solid;
+	border-bottom-color: #4588E6;
+	border-bottom-width: 4px;
+	background-repeat: repeat;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: 600;
+	text-decoration: none;
+}
+
