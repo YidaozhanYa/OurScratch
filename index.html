@@ -117,12 +117,13 @@
 <p class="style1">&nbsp;</p>
 <p class="style1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 我建立本站 ，目的是让没有科学上网手段的人在 
 Scratch 官网被屏蔽之后，能继续查看和游玩 Scratch 官网的项目，以及继续使用在线编辑器和下载最新版本的离线编辑器。希望大家玩的开心！</p>
+<p class="style1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如果镜像站无法使用，那么请把 cdn.apkook.com 中的 apkook 替换成 fobzs 或者 xiaap 之后再试。</p>
 <p class="style1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
 <p class="style1">&nbsp;</p>
 <p class="style4"><span class="button">
-<a href="https://scmirror.sydzy.workers.dev/" class="style2">
+<a target="_blank" href="https://cdn.apkook.com/-----https://scratch.mit.edu/" class="style2">
 <span class="style3">
-<img src="editor-icon.png" width="25" height="25" class="style7" /> 进入 Scratch 官网</span></a>镜像</span></p>
+<img src="editor-icon.png" width="25" height="25" class="style7" /> 进入 Scratch 官网镜像</span></a></p>
 <p class="style11">&nbsp;&nbsp;</p>
 <p class="newStyle1">（使用 
 <img src="http://www.google.cn/s2/favicons?domain=dash.cloudflare.com" class="style3" width="16" height="16" /> 
@@ -143,7 +144,7 @@ CloudFlare 进行反向代理。速度稍慢，无法登陆，但国内可以使
     btnGo.onclick = function() {
       const text = txtURL.value.trim()
       if (text) {
-        const url = 'https://scmirror.sydzy.workers.dev/projects/' + text
+        const url = 'https://cdn.apkook.com/-----https://scratch.mit.edu/projects/' + text
         open(url, '_blank', 'noopener,noreferrer')
       }
     }
@@ -159,7 +160,7 @@ CloudFlare 进行反向代理。速度稍慢，无法登陆，但国内可以使
     	btnS.onclick = function() {
       const text2 = txtS.value.trim()
       if (text2) {
-        const url = 'https://scmirror.sydzy.workers.dev/search/projects?q=' + text2
+        const url = 'https://cdn.apkook.com/-----https://scratch.mit.edu/search/projects?q=' + text2
         window.alert("搜索功能目前不完善，会不稳定，时而能用时而不能用。");
         open(url, '_blank', 'noopener,noreferrer')
       }
@@ -178,6 +179,7 @@ CloudFlare 进行反向代理。速度稍慢，无法登陆，但国内可以使
 <span class="style6">
 <img src="https://www.bilibili.com/favicon.ico" width="25" height="25" class="style5" /> 
 Bilibili 是一刀斩哒</span></a></p>
+<p class="newStyle1">感谢 bulink.xyz 提供的代理源</p>
 <p class="newStyle1">&nbsp;</p>
 
 </html>
