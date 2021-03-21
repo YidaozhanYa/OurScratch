@@ -85,16 +85,17 @@
 </head>
 
 <body style="background-color: #FCFCFC">
-<div style="height: 54px" class="Navigation">
-	<a href="index.html" class="Navigation2">Our <img src="logo_sm.png" width="85" height="27" class="Navigation2" /></a>&nbsp;&nbsp;&nbsp;
-	<a class="Navigation2" href="editor.html">编辑器</a>&nbsp;
-	<a href="download.html" class="Navigation2">下载</a>&nbsp;
-	<a href="htmlifier-offline.html" class="Navigation2">项目转HTML</a>&nbsp;
-	<span class="NavigationSearch">
-	<input class="sinput" id="txtS" type="text" placeholder="搜索项目..." name="" id="" value="" style="width: 359px; height: 29px;" />
-	</span><span class="NavigationSearchButton">
-	<button class="sbutton" id="btnS" style="width: 68px; height: 29px">搜索
-	</button></span></div>
+	<div style="height: 54px" class="Navigation">
+		<a href="index.html" class="Navigation2">Our <img src="logo_sm.png" width="85" height="27" class="Navigation2" /></a>&nbsp;&nbsp;&nbsp;
+		<a href="editor.html" class="Navigation2">编辑器</a>&nbsp;
+		<a href="download.html" class="Navigation2">下载</a>&nbsp;
+		<a href="forkphorus.html" class="Navigation2">Fp编译器</a>&nbsp;
+		<a href="htmlifier-offline.html" class="Navigation2">项目转HTML</a>&nbsp;
+		<span class="NavigationSearch">
+		<input class="sinput" id="txtS" type="text" placeholder="搜索项目..." name="" id="" value="" style="width: 359px; height: 29px;" />
+		</span><span class="NavigationSearchButton">
+		<button class="sbutton" id="btnS" style="width: 68px; height: 29px">搜索
+		</button></span></div>
 <div style="height: 158px" class="NavigationCopy">
 	<br />
 <img src="editor-icon.png" width="48" height="48" class="style3" /><span class="style2"> 
@@ -196,7 +197,7 @@ Bilibili 是一刀斩哒</span></a></p>
     	btnS.onclick = function() {
       const text2 = txtS.value.trim()
       if (text2) {
-        const url = 'https://cdn.apkook.com/-----https://scratch.mit.edu/search/projects?q=' + text2
+        const url = 'https://our-scratch-jsproxy.yidaozhan.gq/-----https://scratch.mit.edu/search/projects?q=' + text2
         window.alert("搜索功能目前不完善，会不稳定，时而能用时而不能用。");
         open(url, '_blank', 'noopener,noreferrer')
       }
@@ -207,7 +208,6 @@ Bilibili 是一刀斩哒</span></a></p>
       }
     }
 </script>
-<p class="newStyle1">感谢 bulink.xyz 提供的代理源</p>
 
 <p class="newStyle1">&nbsp;</p>
 </body>
